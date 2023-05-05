@@ -61,5 +61,5 @@ jobs:
         platforms: linux/amd64,linux/arm64,linux/386,linux/arm/v7,linux/arm/v6
         push: false
         tags: |
-          icloudpd/icloudpd:latest
-          icloudpd/icloudpd:${{needs.get_version.outputs.icloudpd_version}}
+          lewangdev/icloudpd:latest
+          lewangdev/icloudpd:${{needs.get_version.outputs.icloudpd_version}}
